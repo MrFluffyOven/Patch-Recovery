@@ -1,10 +1,10 @@
-name: RECOVERY
+name: VENDOR_BOOT
 
 on:
   workflow_dispatch:
     inputs:
       RECOVERY_URL:
-        description: 'RECOVERY URL'
+        description: 'VENDOR_BOOT URL'
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
 
