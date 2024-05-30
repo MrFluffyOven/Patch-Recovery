@@ -3,13 +3,13 @@ name: VENDOR_BOOT
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      VENDOR_BOOT_URL:
         description: 'VENDOR_BOOT URL'
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  VENDOR_BOOT_URL: https://oshi.at/Rpjg
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget ${{github.event.inputs.RECOVERY_URL }}
+        wget ${{github.event.inputs.VENDOR_BOOT_URL }}
 
     - name: Patch Process-1
       run: |
