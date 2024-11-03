@@ -18,6 +18,7 @@ cd unpack
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot hexpatch system/bin/recovery 27f02eeb30b1681c 27f02eeb30b9681c
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot hexpatch system/bin/recovery b4f082ee28b1701c b4f082ee28b970c1
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot hexpatch system/bin/recovery 9ef0f4ec28b1701c 9ef0f4ec28b9701c
+~runner/work/Patch-Recovery/Patch-Recovery/magiskboot hexpatch system/bin/recovery 9ef0fcec28b1701c 9ef0fced28b1701c
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot  cpio ramdisk.cpio 'add 0755 system/bin/recovery system/bin/recovery'
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot  repack ../r.img new-boot.img
 cp new-boot.img ../recovery-patched.img
